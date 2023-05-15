@@ -1,0 +1,10 @@
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{ 
+    "name": "Deviant",
+    "username": "Admin",
+    "password": "Itsadmin",
+    "confpassword": "Itsadmin",
+    "role": "admin"
+}
